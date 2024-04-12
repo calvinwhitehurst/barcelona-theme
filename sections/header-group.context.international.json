@@ -1,0 +1,29 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "international"
+  },
+  "sections": {
+    "announcement-bar": {
+      "settings": {
+      },
+      "blocks": {
+        "slide": {
+          "settings": {
+            "text": "<p>FREE SHIPPING ON ALL $75+ ORDERS PLACED IN THE CONTIGUOUS U.S.<\/p>",
+            "button_arrow": false,
+            "button_label": ""
+          }
+        }
+      }
+    },
+    "header": {
+      "settings": {
+        "menu": "main-menu-1",
+        "logo": "shopify:\/\/shop_images\/BALogoVertical_5e3b7918-466d-4e8f-9978-fe040899567f.png"
+      },
+      "blocks": {
+      }
+    }
+  }
+}

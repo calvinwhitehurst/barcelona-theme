@@ -1,0 +1,36 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "international"
+  },
+  "sections": {
+    "collection-grid": {
+      "settings": {
+        "card_type": "text-overlay",
+        "text_bg_opacity": 100,
+        "show_collection_desc": true,
+        "show_collection_tags": false
+      },
+      "blocks": {
+        "categories-1": {
+          "settings": {
+            "collection": "all-clear-stk",
+            "collection_image": "shopify:\/\/shop_images\/k205-mens-navy-blue-satin-thong.jpg"
+          }
+        },
+        "categories-2": {
+          "settings": {
+            "collection": "mens-snake-print-underwear",
+            "collection_image": "shopify:\/\/shop_images\/C177-blue-editorial-corey.jpg"
+          }
+        },
+        "categories-3": {
+          "settings": {
+            "collection": "the-chevron-collection",
+            "collection_image": "shopify:\/\/shop_images\/F313-white-editorial.jpg"
+          }
+        }
+      }
+    }
+  }
+}

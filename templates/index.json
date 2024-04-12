@@ -1,0 +1,345 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-slide-0": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider.jpg",
+            "color_scheme": "",
+            "heading": "Glow Collection",
+            "text": "<p>Get Ready For Your Glow-Up<\/p>",
+            "button_label": "Shop Neons",
+            "button_link": "shopify:\/\/collections\/mens-nylon-lingerie",
+            "button_style": "primary",
+            "button_arrow": true,
+            "overlay_opacity": 0
+          }
+        },
+        "slideshow-slide-1": {
+          "type": "slideshow_item",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "heading": "Slide heading",
+            "text": "<p>Text from here describes your slide<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "button_arrow": true,
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-slide-0",
+        "slideshow-slide-1"
+      ],
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}"
+      ],
+      "settings": {
+        "section_layout": "full",
+        "section_alignment": "left",
+        "vertical_alignment": "center",
+        "text_animation": true,
+        "image_size": "large",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_bullets": true,
+        "parallax": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "additional_text": "<p>Scroll<\/p>",
+        "enable_additional_text": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "collection-grid": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories-1": {
+          "type": "categories",
+          "settings": {
+            "collection": "blossom-collection",
+            "collection_image": "shopify:\/\/shop_images\/purple-blossom-cover.jpg",
+            "description": "<p>Perfect Fit Dreamy Florals<\/p>",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories-2": {
+          "type": "categories",
+          "settings": {
+            "collection": "wild-side",
+            "description": "<p>Like A Second Skin<\/p>",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories-3": {
+          "type": "categories",
+          "settings": {
+            "collection": "garden-collection",
+            "collection_image": "shopify:\/\/shop_images\/zach-aqua-skirt-bra_front_f7b0fbbc-e5d5-4f07-a781-a949feeb8848.jpg",
+            "description": "<p>Floral Prints For The Win!<\/p>",
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories-1",
+        "categories-2",
+        "categories-3"
+      ],
+      "settings": {
+        "columns": 3,
+        "image_ratio": "portrait",
+        "card_type": "image-overlay",
+        "text_bg_opacity": 30,
+        "show_collection_desc": true,
+        "show_collection_tags": true,
+        "show_collection_overlay": true,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}"
+      ],
+      "settings": {
+        "collection": "",
+        "product_list": [
+          "mens-neon-pink-nylon-babydoll",
+          "mens-black-nylon-bodysuit",
+          "mens-aqua-nylon-lace-brazilian-panties",
+          "mens-aqua-lace-nylon-bra"
+        ],
+        "heading": "Give Yourself A Glow-Up",
+        "description": "<p>Cute, adorable, and fashionable nylon lingerie from the Glow Collection<\/p>",
+        "autoplay": false,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/mens-nylon-lingerie",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "image_size": "auto",
+        "color_scheme": "scheme-98d7788e-004f-4b8e-816e-88e59c7cd83f",
+        "overlay_opacity": 20,
+        "collection": "wild-side",
+        "description": "<p>Kick some ass on the wild side! This snake print line of super smooth lingerie is amazing.<\/p>",
+        "video": "shopify:\/\/files\/videos\/mens-black-snake-skin-panties.mp4",
+        "show_image": true,
+        "icon_item": "icon_1",
+        "icon_size": "medium",
+        "button_style": "primary",
+        "button_arrow": true,
+        "slide_per_view": "3",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "show_collection_name": true,
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "grid-banner": {
+      "type": "grid-banner",
+      "blocks": {
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset",
+            "overlay_opacity": 20,
+            "heading": "Heading",
+            "heading_size": "large",
+            "text": "<p><\/p>",
+            "desc_opacity": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_arrow": true
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset",
+            "overlay_opacity": 20,
+            "heading": "Heading",
+            "heading_size": "large",
+            "text": "<p><\/p>",
+            "desc_opacity": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_arrow": true
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "settings": {
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset",
+            "overlay_opacity": 20,
+            "heading": "Heading",
+            "heading_size": "large",
+            "text": "<p><\/p>",
+            "desc_opacity": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Heading",
+        "description": "<p>Some description<\/p>",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "color_scheme": "",
+        "columns": 3,
+        "image_ratio": "portrait",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "1d38a902-5769-42e9-bc2c-ebed9196e96d": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-1": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/142428649_451831055989677_6545893799428232919_n.jpg",
+            "object_fit": "cover",
+            "text": "<p>Ordering with you has always been a pleasure and you always go out of your way to take care of me which I appreciate.<\/p>",
+            "author_name": "Jeff G.",
+            "author_data": "11\/12\/23",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-2": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/169672638_293543625620932_3102845698066227490_n.jpg",
+            "object_fit": "cover",
+            "text": "<p>Highly recommended! Excellent quality and well-made items. The fabrics and styles feel so extremely sensual. Fantastic!<\/p>",
+            "author_name": "Len",
+            "author_data": "04\/12\/23",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-3": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/F_gWc4nXEAAr6FN.jpg",
+            "object_fit": "cover",
+            "text": "<p>XDress always has the best new and exciting products and designs! I love that they drop new items weekly! So HOT!!!<\/p>",
+            "author_name": "Shawn",
+            "author_data": "06\/10\/23",
+            "enable_stars": true,
+            "rating": 5
+          }
+        },
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-4": {
+          "type": "testimonials_slide",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/F_Zw9YyWwAAxffG.jpg",
+            "object_fit": "cover",
+            "text": "<p>I feel comfortable in all of my XD items. Its truly wonderful to have styles that feel like they were made just for me.<\/p>",
+            "author_name": "Corey H.",
+            "author_data": "10\/05\/23",
+            "enable_stars": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-1",
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-2",
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-3",
+        "template--14689695957086__1d38a902-5769-42e9-bc2c-ebed9196e96d-testimonials_slide-4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-98d7788e-004f-4b8e-816e-88e59c7cd83f",
+        "heading": "See What Our Customers Have To Say",
+        "description": "<p>XDress lingerie fills so many needs for so many different people.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection-grid",
+    "popular-products",
+    "collection-carousel",
+    "grid-banner",
+    "1d38a902-5769-42e9-bc2c-ebed9196e96d"
+  ]
+}

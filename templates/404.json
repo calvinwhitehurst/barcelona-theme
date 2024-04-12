@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}"
+      ],
+      "settings": {
+        "padding_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

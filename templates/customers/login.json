@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "subtitle": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

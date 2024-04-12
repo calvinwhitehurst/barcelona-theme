@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "color_scheme": "",
+        "section_layout": "full",
+        "image_size": "large",
+        "button_style": "primary",
+        "button_arrow": true,
+        "overlay_opacity": 20,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_bullets": true,
+        "parallax": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "coverflow",
+        "additional_text": "<p>Scroll<\/p>",
+        "enable_additional_text": true,
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "card_type": "default",
+        "show_image": true,
+        "show_tags": false,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": false,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

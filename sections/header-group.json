@@ -1,0 +1,52 @@
+{
+  "type": "header",
+  "name": "t:sections.header.settings.header-group.label",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "slide": {
+          "type": "slide",
+          "settings": {
+            "text": "<p>FREE SHIPPING ON ALL $75+ ORDERS PLACED IN THE CONTIGUOUS U.S.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "slide"
+      ],
+      "settings": {
+        "height": 40,
+        "color_scheme": "scheme-98d7788e-004f-4b8e-816e-88e59c7cd83f",
+        "show_arrows": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}",
+        ".button--full-width {background-color: #e69fdc;}",
+        ".header__heading-logo {height: auto;}"
+      ],
+      "settings": {
+        "height": 130,
+        "logo": "shopify:\/\/shop_images\/34Asset_2FINAL-XD-WHITE-LOGO-BLACK.png",
+        "logo_2": "shopify:\/\/shop_images\/34Asset_1FINAL-XD-WHITE-LOGO-WHITE.png",
+        "logo_width": 175,
+        "menu": "main-menu-2",
+        "color_scheme": "scheme-98d7788e-004f-4b8e-816e-88e59c7cd83f",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "sticky_header_type": "on-scroll-up",
+        "enable_search": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

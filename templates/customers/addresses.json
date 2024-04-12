@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-addresses",
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

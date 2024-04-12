@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "custom_css": [
+        ".button--primary {background-color: #e69fdc;}",
+        ".account-row {margin-bottom: 50px;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

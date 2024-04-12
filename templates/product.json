@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "2b265138-349e-426c-bd23-08948de69768": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "97367267-aa0c-4757-9cd6-d7596b570450": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "c56b75e7-349a-4641-a778-7d3a66b5873a": {
+          "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-block\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+          "settings": {
+            "heading": "Sezzle Widget",
+            "font_size": 14,
+            "font_family": "inherit"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "description_heading": "Description",
+            "default_open": false,
+            "description_variants": "collapsible"
+          }
+        },
+        "about": {
+          "type": "about",
+          "settings": {
+            "about_heading": "Size Chart",
+            "about_heading_content": "<p>{{ product.metafields.custom.size_chart.value }}<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_quantity": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "icon-with-text": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "icon_17",
+            "heading_1": "Heading",
+            "icon_2": "icon_1",
+            "heading_2": "Heading",
+            "icon_3": "icon_3",
+            "heading_3": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "2b265138-349e-426c-bd23-08948de69768",
+        "title",
+        "97367267-aa0c-4757-9cd6-d7596b570450",
+        "price",
+        "c56b75e7-349a-4641-a778-7d3a66b5873a",
+        "variant_picker",
+        "description",
+        "about",
+        "buy_buttons",
+        "icon-with-text"
+      ],
+      "custom_css": [
+        ".product-form__quantity .quantity {background-color: #efd9e9;}",
+        ".product-form__submit {background-color: #efd9e9;}",
+        ".shopify-payment-button__button.shopify-payment-button__button--unbranded {background-color: #e69fdc;}",
+        ".webyzeProductColorsLabel {font-weight: bold !important; font-size: 1.6rem;}",
+        ".webyzeProductColors {padding-bottom: 15px;}"
+      ],
+      "settings": {
+        "image_gallery_collage": "thumbnail_carousel",
+        "desktop_alignment": "left",
+        "mobile_alignment": "after",
+        "image_fit": "cover",
+        "enable_autoheight": true,
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "17047408724af83ca7": {
+      "type": "apps",
+      "blocks": {
+        "7e1ebf63-95cf-449a-8b13-9292450c8d02": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "take_questions": 0,
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "7e1ebf63-95cf-449a-8b13-9292450c8d02"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Looking For Inspiration?",
+        "description": "<p>Here are some styles you will love<\/p>",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "show_arrows": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_collection_name": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17047408724af83ca7",
+    "product-recommendations"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer.settings.footer-group.label",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "logo_info",
+          "disabled": true,
+          "settings": {
+            "letter_text": "<p>Some description.<\/p>",
+            "logo_width": 100
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Our Brands",
+            "menu": "our-brands"
+          }
+        },
+        "footer-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Information",
+            "menu": "footer"
+          }
+        },
+        "footer-3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Contact",
+            "menu": "contact"
+          }
+        },
+        "footer-5": {
+          "type": "subscribe",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Heading for subscribe form<\/p>",
+            "newsletter_text": "<p>Additional text for subscribe form.<\/p>",
+            "newsletter_sub": "<p>By subscribing you agree to the Terms of Use and Privacy Policy.<\/p>",
+            "button_label": "Button label",
+            "button_style": "secondary",
+            "button_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2",
+        "footer-3",
+        "footer-5"
+      ],
+      "settings": {
+        "color_scheme": "scheme-98d7788e-004f-4b8e-816e-88e59c7cd83f",
+        "enable_language_selector": true,
+        "language_heading": "Language",
+        "enable_country_selector": true,
+        "country_heading": "Currency",
+        "enable_follow_on_shop": false,
+        "payment_enable": true,
+        "payment_heading": "XDress Accepts",
+        "heading": "Follow XDress",
+        "margin_top": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "fix_paddings": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
